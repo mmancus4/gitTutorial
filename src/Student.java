@@ -3,7 +3,7 @@
  */
 public class Student extends Person {
     String major;
-    boolean fulltime ;
+    boolean fulltime;
     List<Course> courseList;
 
     public Student(String name, String emailAddress, String major, boolean fulltime) {
